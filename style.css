@@ -14,7 +14,9 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
-
+a {
+    text-decoration: none;
+}
 #signin-link {
     padding-right: 2em;
     display: flex;
@@ -30,11 +32,64 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 80vh;
-    background-color: aqua;
 }
 
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand {
+    align-self: center;
+    margin-top: 1em;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.brand-links {
+    padding: 0 0.5em;
+}
+
+.svg-brand-link {
+    height: 23px;
+    width: 23px;
+}
+
+#mint-txt {
+    width: 37px;
+    height: 20px;
+}
+
+#qb-txt {
+    width: 98px;
+    height: 22px;
+}
+
+#turbo-txt {
+    width: 74px;
+    height: 22px;
+}
+/*form {
+    background-color: #ffffff;
+}
+#form-header {
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2.4 em;
+}*/
 footer {
     height: 10vh;
     background-color: antiquewhite;
