@@ -1,0 +1,26 @@
+body {
+    background-color: #ECEEF1;
+}
+
+#main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    background-color: aqua;
+}
+
+footer {
+    height: 10vh;
+    background-color: antiquewhite;
+}
+
