@@ -30,9 +30,38 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 80vh;
     background-color: aqua;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand {
+    align-self: center;
+    margin-top: 1em;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.brand-links {
+}
+
+.svg-brand-link {
+    height: 23px;
+    width: 23px;
 }
 
 footer {
