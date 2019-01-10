@@ -45,9 +45,36 @@
             </div>
             <div id="form-wrapper">
                 <form action="" method="POST">
-                    <h2 id="form-header">
-                        One Account.<br>Everything Intuit.
-                    </h2>
+                    <div id="form-header">
+                        <h2>
+                            One Account.<br>Everything Intuit.
+                        </h2>
+                        <span>
+                            Create an account for all of Intuit's products including Mint. <a id="info-link" href="#">Learn more</a>
+                        </span>
+                    </div>
+                    <div id="form-body">
+                        <div id="email-section" class="form-section">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div id="phone-section" class="form-section">
+                            <label for="phone">Phone (recommended)</label>
+                            <input type="tel" id="phone">
+                            <span id="sms-warning">
+                                Standard call, messaging or data rates may apply.
+                            </span>
+                        </div>
+                        <div id="password" class="form-section">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div id="cpassword" class="form-section">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" id="cpassword" required>
+                        </div>
+
+                    </div>
                 </form>
             </div>
         </main>
