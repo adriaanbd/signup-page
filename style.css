@@ -14,7 +14,9 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
-
+a {
+    text-decoration: none;
+}
 #signin-link {
     padding-right: 2em;
     display: flex;
@@ -35,8 +37,9 @@ main {
     align-items: center;
     width: 100vw;
     height: 80vh;
-    background-color: aqua;
 }
+
+
 
 #header {
     display: flex;
@@ -57,6 +60,7 @@ main {
 }
 
 .brand-links {
+    padding: 0 0.5em;
 }
 
 .svg-brand-link {
@@ -64,6 +68,28 @@ main {
     width: 23px;
 }
 
+#mint-txt {
+    width: 37px;
+    height: 20px;
+}
+
+#qb-txt {
+    width: 98px;
+    height: 22px;
+}
+
+#turbo-txt {
+    width: 74px;
+    height: 22px;
+}
+/*form {
+    background-color: #ffffff;
+}
+#form-header {
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2.4 em;
+}*/
 footer {
     height: 10vh;
     background-color: antiquewhite;
