@@ -10,7 +10,23 @@ body {
 header {
     width: 100vw;
     height: 10vh;
-    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#signin-link {
+    padding-right: 2em;
+    display: flex;
+}
+
+#forgot-pwd {
+    display: flex;
+    flex-direction: column;
+}
+
+#signin {
+    padding: 1em;
 }
 
 main {
