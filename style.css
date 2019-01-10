@@ -149,7 +149,13 @@ input {
     font-size: 10px;
     color: #444;
 }
-
+#signup-btn {
+    margin: auto;
+    width: 100%;
+    background: #0077C5;
+    border: #0077C5;
+    color: #FFFFFF;
+}
 footer {
     height: 10vh;
     background-color: antiquewhite;
