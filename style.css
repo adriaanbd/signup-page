@@ -23,6 +23,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
+
 a {
     text-decoration: none;
     color: #0077C5;
@@ -35,6 +36,7 @@ a:visted {
 #info-link:hover{
     text-decoration: underline;
 }
+
 #signin-link {
     padding-right: 2em;
     display: flex;
@@ -54,6 +56,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    margin-bottom: 2em;
 }
 
 #header {
@@ -185,7 +188,17 @@ input {
 }
 
 footer {
-    height: 10vh;
-    background-color: antiquewhite;
+    font-size: 12px;
+    color: #505050;
+    text-align: center;
 }
-
+footer p {
+    margin-top: 0.1em;
+}
+#footer-links a{
+    color: #505050;
+    margin: 0 4px;
+}
+#footer-links a:hover {
+    text-decoration: underline;
+}
