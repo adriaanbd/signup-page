@@ -22,6 +22,28 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    color: #505050;
+}
+
+#forgot-pwd {
+    margin-right: 0.5em;
+    text-align: right;
+    line-height: 1.3em;
+}
+
+#signin-link {
+    padding-right: 2em;
+    display: flex;
+    font-size: 12px;
+}
+
+#signin {
+    padding: 0.6em 2em;
+    background-color: #0077C5;
+    border: 1px solid #4C4C4C;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
 }
 
 a {
@@ -29,6 +51,7 @@ a {
     color: #0077C5;
     font-size: 12px;
 }
+
 a:visted {
     color: #0077C5;
 }
@@ -37,18 +60,9 @@ a:visted {
     text-decoration: underline;
 }
 
-#signin-link {
-    padding-right: 2em;
-    display: flex;
-}
-
 #forgot-pwd {
     display: flex;
     flex-direction: column;
-}
-
-#signin {
-    padding: 1em;
 }
 
 main {
@@ -170,6 +184,7 @@ input {
     font-size: 10px;
     color: #444;
 }
+
 #signup-btn {
     margin: 1em auto;
     width: 100%;
@@ -192,13 +207,16 @@ footer {
     color: #505050;
     text-align: center;
 }
+
 footer p {
     margin-top: 0.1em;
 }
+
 #footer-links a{
     color: #505050;
     margin: 0 4px;
 }
+
 #footer-links a:hover {
     text-decoration: underline;
 }
