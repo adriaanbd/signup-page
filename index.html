@@ -45,9 +45,51 @@
             </div>
             <div id="form-wrapper">
                 <form action="" method="POST">
-                    <!-- <h2 id="form-header">
-                        One Account.<br>Everything Intuit.
-                    </h2> -->
+                    <div id="form-header">
+                        <h2>
+                            One Account.<br>Everything Intuit.
+                        </h2>
+                        <span>
+                            Create an account for all of Intuit's products including Mint. <a id="info-link" href="#">Learn more</a>
+                        </span>
+                    </div>
+                    <div id="form-body">
+                        <div id="email-section" class="form-section">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div id="phone-section" class="form-section">
+                            <label for="phone">Phone (recommended)</label>
+                            <input type="tel" id="phone">
+                            <span id="sms-warning">
+                                Standard call, messaging or data rates may apply.
+                            </span>
+                        </div>
+                        <div id="password-section" class="form-section">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div id="cpassword-section" class="form-section">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" id="cpassword" required>
+                        </div>
+                        <div class="form-section">
+                            <button id="signup-btn">
+                                <i class="fas fa-lock"></i> Create Account
+                            </button>
+                        </div>
+                        <div id="disclaimer" class="form-section">
+                            <p>
+                                By clicking Create Account, you agree to our
+                                <a href="">License Agreement</a> and have read and acknowledge our <a href="">Privacy Statement</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="form-footer">
+                        <p id="captcha">
+                            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+                        </p>
+                    </div>
                 </form>
             </div>
         </main>
