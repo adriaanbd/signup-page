@@ -14,9 +14,11 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
+
 a {
     text-decoration: none;
 }
+
 #signin-link {
     padding-right: 2em;
     display: flex;
