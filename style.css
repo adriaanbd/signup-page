@@ -26,6 +26,8 @@ header {
 }
 
 #forgot-pwd {
+    display: flex;
+    flex-direction: column;
     margin-right: 0.5em;
     text-align: right;
     line-height: 1.3em;
@@ -52,7 +54,7 @@ a {
     font-size: 12px;
 }
 
-a:visted {
+a:visited {
     color: #0077C5;
 }
 
@@ -60,10 +62,6 @@ a:visted {
     text-decoration: underline;
 }
 
-#forgot-pwd {
-    display: flex;
-    flex-direction: column;
-}
 
 main {
     display: flex;
@@ -129,7 +127,7 @@ form {
 
 #form-header h2 {
     font-weight: 400;
-    font-size: 2.4 em;
+    font-size: 2.4em;
     color: #4C4C4C;
     line-height: 1.1;
 }
