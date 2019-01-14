@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint's Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <div id="main-wrapper">
+        <header>
+            <div id="signin-link">
+                <div id="forgot-pwd">
+                    <span>Already have an Intuit account?</span>
+                    <span><a href="#">I forgot my User ID or Password</a></span>
+                </div>
+                <div id="signin-btn">
+                    <button id="signin">
+                    <i class="fas fa-lock"></i>
+                    Sign In
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="header">
+                <div id="brand">
+                    INTUIT
+                </div>
+                <div id="links">
+                    <a href="" class="brand-links">
+                        <img id="mint-svg" class="svg-brand-link" src="https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg" alt="mint">
+                        <img id="mint-txt" class="svg-brand-txt" src="https://accounts.intuit.com/IUS-Plugins/v2/images/mint-text.svg" alt="">
+                    </a>
+                    <a href="" class="brand-links">
+                        <img id="quickbooks-svg" class="svg-brand-link" src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg" alt="quickbooks">
+                        <img id="qb-txt" class="svg-brand-txt" src="https://accounts.intuit.com/IUS-Plugins/v2/images/quick-books-text.svg" alt="">
+                    </a>
+                    <a href="" id="turbotax-svg" class="brand-links">
+                        <img class="svg-brand-link" src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg" alt="turbotax">
+                        <img id="turbo-txt" class="svg-brand-txt" src="https://accounts.intuit.com/IUS-Plugins/v2/images/turbo-tax-text.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div id="form-wrapper">
+                <form action="#" method="POST">
+                    <div id="form-header">
+                        <h2>
+                            One Account.<br>Everything Intuit.
+                        </h2>
+                        <span>
+                            Create an account for all of Intuit's products including Mint. <a id="info-link" href="#">Learn more</a>
+                        </span>
+                    </div>
+                    <div id="form-body">
+                        <div id="email-section" class="form-section">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div id="phone-section" class="form-section">
+                            <label for="phone">Phone (recommended)</label>
+                            <input type="tel" id="phone">
+                            <span id="sms-warning">
+                                Standard call, messaging or data rates may apply.
+                            </span>
+                        </div>
+                        <div id="password-section" class="form-section">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div id="cpassword-section" class="form-section">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" id="cpassword" required>
+                        </div>
+                        <div class="form-section">
+                            <button id="signup-btn" type="submit">
+                                <i class="fas fa-lock"></i> Create Account
+                            </button>
+                        </div>
+                        <div id="disclaimer" class="form-section">
+                            <p>
+                                By clicking Create Account, you agree to our
+                                <a href="">License Agreement</a> and have read and acknowledge our <a href="">Privacy Statement</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="form-footer">
+                        <p id="captcha">
+                            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-links">
+                <a href="#">Legal</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </div>
+            <p id="copyright">
+                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
